@@ -1,11 +1,14 @@
-//
-$ forge create --rpc-url https://scroll-testnet-public.unifra.io --etherscan-api-key <api-key> --private-key <private-key> --verify Lending --legacy
+Contract deployed on Scroll Sepolia: 0x1a47542459025152de999dEC7A1A4EBf4BBE88eb
 
-0x1a47542459025152de999dEC7A1A4EBf4BBE88eb
+## Command to deploy
 
-forge verify-contract <private-key> Lending \
+`$ forge create --rpc-url https://scroll-testnet-public.unifra.io --etherscan-api-key <api-key> --private-key <private-key> --verify Lending --legacy`
+
+## Command to verify
+
+`forge verify-contract <private-key> Lending \
  --verifier-url https://api-sepolia.scrollscan.com/api \
- --etherscan-api-key <api-key>\
+ --etherscan-api-key <api-key>\`
 
 ## Foundry
 
