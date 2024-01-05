@@ -1,6 +1,5 @@
 Command to deploy
 $ forge create --rpc-url https://scroll-testnet-public.unifra.io --etherscan-api-key <api-key> --private-key <private-key> --verify Lending --legacy
-K793M3EGCJDDHCR6Y7TVVQJSIR5GUC57KD
 
 lending: 0x57428157101b85338618f1251bc351a49cd23897
 erc20;: 0x2a6811ee59b4a6fb2ef43c15502fa3ee638af274
